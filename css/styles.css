@@ -373,8 +373,12 @@ img {
   fill: var(--icon-text);
 }
 
-.social-item:not(:last-child) {
-  margin-right: 30px;
+.team .social-item {
+  justify-content: center;
+}
+
+.social-item {
+  gap: 10px;
 }
 
 .social-link:hover {
@@ -485,16 +489,16 @@ img {
 
 .social-footer {
   margin-left: 70px;
+  color: var(--secondary-text-color);
 }
 
 .social-text {
   margin-bottom: 20px;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
 }
 
-.social-footer ul {
-  display: flex;
+.social-footer .social-link {
+  fill: var(--secondary-text-color);
 }
 
 /* Page Portfolio */
